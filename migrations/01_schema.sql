@@ -29,8 +29,8 @@ CREATE TABLE properties (
 
   is_active BOOLEAN NOT NULL DEFAULT TRUE,
 
-  thumbnail_photo VARCHAR(255) NOT NULL,
-  cover_photo VARCHAR(255) NOT NULL
+  thumbnail_photo_url VARCHAR(255) NOT NULL,
+  cover_photo_url VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE reservations (
