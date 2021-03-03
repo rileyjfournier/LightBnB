@@ -4,7 +4,7 @@ VALUES ('Eva Stanley', 'evastanley@ymail.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4
        ('Dominic Parks', 'dominicparks@outlook.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
        ('Sue Luna', 'sueluna@gmx.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
-INSERT INTO properties (owner_id, title, description, cost_per_night, parking_spaces, num_of_bathrooms, num_of_bedrooms, country, street, city, province, postal_code, is_active, thumbnail_photo_url, cover_photo_url)
+INSERT INTO properties (owner_id, title, description, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street, city, province, post_code, active, thumbnail_photo_url, cover_photo_url)
 VALUES (1, 'Speed Lamp', 'description', 150, 1, 2, 2, 'Canada', '123 Best Street', 'Calgary', 'Alberta', 'Q1W2E3', true, 'https://wowawesomephoto.com/amazingphoto', 'https://anevenbetterphoto.com/wow'),
        (2, 'Low Lamp', 'description', 200, 0, 1, 2, 'Canada', '123 Further Street', 'Edmonton', 'Alberta', 'T1W2E2', true, 'https://wowawesomephoto.com/amazingphoto', 'https://anevenbetterphoto.com/wow'),
        (2, 'Speedy Chair', 'description', 175, 2, 2, 2, 'Canada', '123 Hidden Ave', 'Calgary', 'Alberta', 'C1W5E3', true, 'https://wowawesomephoto.com/amazingphoto', 'https://anevenbetterphoto.com/wow'),
